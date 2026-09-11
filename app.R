@@ -4,7 +4,7 @@ ui <- fluidPage(
   titlePanel("Test SSP Cloud"),
   sidebarLayout(
     sidebarPanel(
-      sliderInput("n", "Nombre de points", min = 10, max = 1000, value = 200)
+      sliderInput("n", "Nombre de points", min = 10, max = 10000, value = 200)
     ),
     mainPanel(
       plotOutput("hist"),
